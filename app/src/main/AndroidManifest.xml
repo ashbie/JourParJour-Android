@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JourParJour">
         <activity
+            android:name=".NotFoundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HostActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
